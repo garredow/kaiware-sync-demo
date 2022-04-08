@@ -1,0 +1,19 @@
+{
+  "id": "kaios-parcel-starter",
+  "name": "Parcel App",
+  "description": "A starter template using Parcel",
+  "version": "1.0.0",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/icons/icon_128.png",
+    "112": "/icons/icon_112.png",
+    "56": "/icons/icon_56.png"
+  },
+  "theme_color": "#FFFFFF",
+  "developer": {
+    "name": "Garrett Downs",
+    "url": "https://garrettdowns.com"
+  },
+  "type": "privileged",
+  "default_locale": "en"
+}
