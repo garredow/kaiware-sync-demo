@@ -1,11 +1,10 @@
 {
-  "id": "com.garredow.kass-demo",
-  "name": "Kaiware Settings Sync",
-  "short_name": "Kass",
-  "description": "A demo of Kaiware Settings Sync",
+  "id": "com.garredow.kaiware-sync-demo",
+  "name": "Kaiware Sync Demo",
+  "description": "A demo of Kaiware Sync",
   "version": "1.0.0",
   "launch_path": "/app/index.html",
-  "origin": "app://com.garredow.kaios-toolbox",
+  "origin": "app://com.garredow.kaiware-sync-demo",
   "icons": {
     "128": "/icons/icon_128.png",
     "112": "/icons/icon_112.png",
@@ -19,14 +18,13 @@
   "type": "privileged",
   "permissions": {
     "systemXHR": {
-      "description": "Required to sync settings."
+      "description": "Required to sync data."
     }
   },
   "locales": {
     "en-US": {
-      "name": "Kaiware Settings Sync",
-      "short_name": "Kass",
-      "description": "A demo of Kaiware Settings Sync"
+      "name": "Kaiware Sync",
+      "description": "A demo of Kaiware Sync"
     }
   },
   "default_locale": "en-US",
@@ -34,7 +32,7 @@
   "cursor": true,
   "redirects": [
     {
-      "from": "https://com.garredow.kass-demo/oauth",
+      "from": "https://com_garredow_kaiware-sync-demo.app.kaiware.io/oauth",
       "to": "/oauth/index.html"
     }
   ]

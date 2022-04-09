@@ -1,17 +1,16 @@
-import Kass, { signin } from 'kass-lib';
+import { KaiwareSync } from 'kaiware-sync';
 
 async function handler() {
-  await signin();
-  console.log('Signed in!!');
-
-  const kass = new Kass({
-    appId: 'com.garredow.kass-demo',
-    baseUrl: 'https://kass.kaiware.io',
+  const sync = new KaiwareSync({
+    appId: 'com.garredow.kaiware-sync-demo',
   });
 
-  await kass.set({ theme: 'dark', color: 'red' });
+  await sync.signin();
+  console.log('Signed in!!');
 
-  const result = await kass.get();
+  await sync.set({ theme: 'dark', color: 'red' });
+
+  const result = await sync.get();
   console.log('settings', result);
 }
 

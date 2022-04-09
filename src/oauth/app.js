@@ -1,3 +1,6 @@
-import { handleCallback } from 'kass-lib';
+import { KaiwareSync } from 'kaiware-sync';
 
-handleCallback();
+const sync = new KaiwareSync({
+  appId: 'com.garredow.kaiware-sync-demo',
+});
+sync.handleAuthCallback();
