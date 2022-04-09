@@ -1,19 +1,41 @@
 {
-  "id": "kaios-parcel-starter",
-  "name": "Parcel App",
-  "description": "A starter template using Parcel",
+  "id": "com.garredow.kass-demo",
+  "name": "Kaiware Settings Sync",
+  "short_name": "Kass",
+  "description": "A demo of Kaiware Settings Sync",
   "version": "1.0.0",
-  "launch_path": "/index.html",
+  "launch_path": "/app/index.html",
+  "origin": "app://com.garredow.kaios-toolbox",
   "icons": {
     "128": "/icons/icon_128.png",
     "112": "/icons/icon_112.png",
     "56": "/icons/icon_56.png"
   },
-  "theme_color": "#FFFFFF",
+  "theme_color": "#F8F8F8",
   "developer": {
     "name": "Garrett Downs",
     "url": "https://garrettdowns.com"
   },
   "type": "privileged",
-  "default_locale": "en"
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to sync settings."
+    }
+  },
+  "locales": {
+    "en-US": {
+      "name": "Kaiware Settings Sync",
+      "short_name": "Kass",
+      "description": "A demo of Kaiware Settings Sync"
+    }
+  },
+  "default_locale": "en-US",
+  "categories": ["utilities"],
+  "cursor": true,
+  "redirects": [
+    {
+      "from": "https://com.garredow.kass-demo/oauth",
+      "to": "/oauth/index.html"
+    }
+  ]
 }
