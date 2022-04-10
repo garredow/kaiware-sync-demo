@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "kaiware-sync": "^2.0.1"
+    "kaiware-sync": "^2.3.0"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.3.1",
