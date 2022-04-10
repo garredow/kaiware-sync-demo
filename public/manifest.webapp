@@ -32,7 +32,7 @@
   "cursor": true,
   "redirects": [
     {
-      "from": "https://com_garredow_kaiware-sync-demo.app.kaiware.io/oauth",
+      "from": "https://com_garredow_kaiware-sync-demo.sync.kaiware.io/oauth",
       "to": "/oauth/index.html"
     }
   ]
